@@ -129,6 +129,9 @@ Developed by **Sandun Pushpika**
 - Full Stack Developer
 - Passionate about creating modern web experiences
 
+## Preview
+Like to the preview: https://saloon-portfolio-three.vercel.app/
+
 ## 📄 License
 
 This project is created for portfolio and educational purposes.
