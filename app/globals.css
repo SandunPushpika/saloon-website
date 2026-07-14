@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ivory: #F8F6F2;
+  --color-charcoal: #222222;
+  --color-beige: #DCC9B6;
+  --color-rose-gold: #C9987A;
+  --color-sage: #9BA88D;
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+}

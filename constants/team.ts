@@ -1,0 +1,60 @@
+import type { TeamMember } from '@/types/team'
+
+export const team: TeamMember[] = [
+  {
+    id: 'amara-chen',
+    name: 'Amara Chen',
+    role: 'Founder & Creative Director',
+    specialty: 'Color & Vision',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80',
+    bio: 'Amara founded Lumière to bring editorial-level artistry to everyday beauty rituals.',
+  },
+  {
+    id: 'julien-moreau',
+    name: 'Julien Moreau',
+    role: 'Master Colorist',
+    specialty: 'Balayage & Highlights',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80',
+    bio: 'Julien trained in Paris and specializes in hand-painted color that grows out gracefully.',
+  },
+  {
+    id: 'diego-alvarez',
+    name: 'Diego Alvarez',
+    role: 'Senior Hair Stylist',
+    specialty: 'Precision Cutting',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80',
+    bio: 'Diego brings a decade of runway styling experience to every cut and blow-dry.',
+  },
+  {
+    id: 'priya-sharma',
+    name: 'Priya Sharma',
+    role: 'Lead Makeup Artist',
+    specialty: 'Bridal & Editorial Makeup',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80',
+    bio: 'Priya has led makeup teams for fashion week and now brings that precision to every bride.',
+  },
+  {
+    id: 'naledi-okafor',
+    name: 'Naledi Okafor',
+    role: 'Nail Artist & Spa Lead',
+    specialty: 'Nail Art & Wellness',
+    image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&q=80',
+    bio: 'Naledi blends meticulous nail artistry with a calming, spa-first approach to every visit.',
+  },
+  {
+    id: 'theo-bianchi',
+    name: 'Theo Bianchi',
+    role: 'Master Barber',
+    specialty: "Men's Cuts & Beard Sculpting",
+    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80',
+    bio: "Theo's sharp, classic-meets-modern style has built a loyal following of regulars.",
+  },
+  {
+    id: 'marcus-reed',
+    name: 'Marcus Reed',
+    role: 'Barber & Grooming Specialist',
+    specialty: 'Hot Towel Shaves',
+    image: 'https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&q=80',
+    bio: 'Marcus turns every shave and trim into a slow, deliberate ritual of old-school craft.',
+  },
+]

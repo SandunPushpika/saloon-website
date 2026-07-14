@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --ts --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx vitest *)",
+      "Bash(npm test *)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); console.log\\('Instagram:', typeof l.Instagram, 'Facebook:', typeof l.Facebook, 'Menu:', typeof l.Menu\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000 -o /tmp/home.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl *)",
+      "Bash(curl -s http://localhost:3000/about -o /tmp/about.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(npm run)",
+      "Bash(curl -s http://localhost:3000/services -o /tmp/services.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000/gallery -o /tmp/gallery.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3000/pricing -o /tmp/pricing.html -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(grep -o \"Simple, Transparent Pricing\\\\|From \\\\$[0-9]*\" /tmp/pricing.html)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/about)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/services)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/gallery)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/pricing)",
+      "Bash(curl -s \"http://localhost:3000/\")",
+      "Bash(curl -s -o /tmp/img_test.bin -w \"HTTP:%{http_code} TYPE:%{content_type} SIZE:%{size_download}\\\\n\" \"http://localhost:3000/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1580618672591-eb180b1a973f%3Fauto%3Dformat%26fit%3Dcrop%26q%3D80&w=3840&q=75\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"http://localhost:3000/about\")",
+      "Bash(curl -s \"http://localhost:3000/services\")",
+      "Bash(env)",
+      "Bash(taskkill //PID 50924 //F)",
+      "Bash(disown)",
+      "Bash(curl -s \"http://localhost:3000/gallery\")",
+      "Bash(xargs -P 20 '-I{}' sh -c 'code=$\\(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:3000{}\"\\); echo \"$code {}\"')",
+      "Bash(taskkill //PID 48724 //F)",
+      "Bash(xargs -P 20 '-I{}' sh -c 'code=$\\(curl -s -o /dev/null -w \"%{http_code}\" \"{}\"\\); echo \"$code {}\"')",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
