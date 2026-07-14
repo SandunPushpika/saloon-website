@@ -1,4 +1,4 @@
-# ✨ Luxe Salon Website
+# ✨ Salon Website
 
 A modern, responsive, and elegant salon website built with **Next.js**. This project was designed to showcase a premium beauty and wellness brand, providing customers with a seamless experience for exploring services, viewing salon information, and booking appointments online.
 
