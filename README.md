@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Luxe Salon Website
 
-## Getting Started
+A modern, responsive, and elegant salon website built with **Next.js**. This project was designed to showcase a premium beauty and wellness brand, providing customers with a seamless experience for exploring services, viewing salon information, and booking appointments online.
 
-First, run the development server:
+## 🌟 Features
+
+- Modern and responsive UI/UX
+- Mobile-first design
+- Beautiful service showcase pages
+- Salon information and contact details
+- Appointment booking interface
+- Fast page loading with Next.js
+- SEO-friendly architecture
+- Smooth animations and transitions
+- Optimized image handling
+- Clean and scalable project structure
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+### Additional Libraries
+- Framer Motion
+- React Icons
+- Axios
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (v18 or later)
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/luxe-salon.git
+```
+
+Navigate to the project:
+
+```bash
+cd luxe-salon
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+```text
+src/
+├── app/
+├── components/
+├── sections/
+├── hooks/
+├── lib/
+├── styles/
+├── public/
+└── types/
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website was designed with the following goals:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Deliver a premium salon brand experience
+- Ensure excellent usability on all devices
+- Maintain fast performance and accessibility
+- Create a visually engaging interface
+- Follow modern web development best practices
 
-## Deploy on Vercel
+## ⚡ Performance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Server-side rendering with Next.js
+- Optimized image delivery
+- Responsive layouts
+- SEO-friendly metadata
+- Lazy-loaded assets where applicable
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+
+The website is fully optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+## 🔮 Future Improvements
+
+- Online appointment management
+- Customer authentication
+- Admin dashboard
+- Payment gateway integration
+- Service reviews and ratings
+- Email notifications
+- Blog and beauty tips section
+
+## 👨‍💻 Author
+
+Developed by **Sandun Pushpika**
+
+- Software Engineer
+- Full Stack Developer
+- Passionate about creating modern web experiences
+
+## 📄 License
+
+This project is created for portfolio and educational purposes.
